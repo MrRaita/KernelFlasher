@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Kernel Flasher</string>
+    <string name="root_required">Root erişimi gerekli</string>
+    <string name="root_service_disconnected">Root hizmetinin bağlantısı kesildi</string>
+    <string name="device">Cihaz</string>
+    <string name="model">Model</string>
+    <string name="build_number">Derleme numarası</string>
+    <string name="kernel_name" tools:keep="@string/kernel_name">Kernel adı</string>
+    <string name="kernel_version">Kernel sürümü</string>
+    <string name="slot_suffix">Slot soneki</string>
+    <string name="slot" tools:ignore="MissingTranslation">Slot</string>
+    <string name="slot_a">A slotu</string>
+    <string name="slot_b">B slotu</string>
+    <string name="boot_sha1" tools:ignore="Typos">Boot SHA1</string>
+    <string name="vendor_dlkm">Vendor DLKM</string>
+    <string name="exists">Mevcut</string>
+    <string name="not_found">Bulunamadı</string>
+    <string name="mounted">Bağlı</string>
+    <string name="unmounted">Bağlı değil</string>
+    <string name="view">Görüntüle</string>
+    <string name="backups">Yedekler</string>
+    <string name="save_ramoops">ramoops\'u kaydet</string>
+    <string name="save_dmesg">dmesg\'i kaydet</string>
+    <string name="save_logcat">logcat\'i kaydet</string>
+    <string name="back">Geri</string>
+    <string name="backup">Yedekle</string>
+    <string name="updates">Güncellemeler</string>
+    <string name="flash">Flaşla</string>
+    <string name="flash_mkbootfs">mkbootfs kullanarak flaşla</string>
+    <string name="flash_ak3_zip">AK3 ZIP\'ini flaşla</string>
+    <string name="flash_ak3_zip_mkbootfs">mkbootfs kullanarak AK3 ZIP\'ini flaşla</string>
+    <string name="flash_partition_image">Bölüm imajını flaşla</string>
+    <string name="flash_ksu_lkm">KernelSU LKM sürücüsünü flaşla</string>
+    <string name="restore">Geri yükle</string>
+    <string name="check_kernel_version">Kernel sürümünü kontrol et</string>
+    <string name="mount_vendor_dlkm">Vendor DLKM\'yi bağla</string>
+    <string name="unmount_vendor_dlkm">Vendor DLKM bağlantısını kaldır</string>
+    <string name="map_vendor_dlkm">Vendor DLKM\'yi eşle</string>
+    <string name="unmap_vendor_dlkm">Vendor DLKM eşlemesini kaldır</string>
+    <string name="migrate">Taşı</string>
+    <string name="no_backups_found">Yedek bulunamadı</string>
+    <string name="delete">Sil</string>
+    <string name="add">Ekle</string>
+    <string name="url">URL</string>
+    <string name="version">Sürüm</string>
+    <string name="date_released">Yayınlanma tarihi</string>
+    <string name="last_updated">Son güncelleme</string>
+    <string name="changelog">Değişiklik günlüğü</string>
+    <string name="check_for_updates">Güncellemeleri kontrol et</string>
+    <string name="download">İndir</string>
+    <string name="reboot">Yeniden başlat</string>
+    <string name="reboot_userspace">Yumuşak yeniden başlat</string>
+    <string name="reboot_recovery">Recovery\'ye yeniden başlat</string>
+    <string name="reboot_bootloader">Bootloader\'a yeniden başlat</string>
+    <string name="reboot_download">Download moduna yeniden başlat</string>
+    <string name="reboot_edl">EDL\'ye yeniden başlat</string>
+    <string name="save_ak3_log">AK3 günlüğünü kaydet</string>
+    <string name="save_flash_log">Flaşlama günlüğünü kaydet</string>
+    <string name="save_backup_log">Yedekleme günlüğünü kaydet</string>
+    <string name="save_restore_log" tools:keep="@string/save_restore_log">Geri yükleme günlüğünü kaydet</string>
+    <string name="save_ak3_zip_as_backup">AK3 ZIP\'ini yedek olarak kaydet</string>
+    <string name="backup_type">Yedek türü</string>
+    <string name="hashes">Hash değerleri</string>
+    <string name="partition_selection_unavailable">Eski yedeklerde bölüm seçimi kullanılamıyor</string>
+    <string name="boot_fmt">boot.img biçimi</string>
+    <string name="init_boot_fmt">init_boot.img biçimi</string>
+    <string name="ramdisk_fmt">Ramdisk biçimi</string>
+    <string name="susfs_version">SUSFS sürümü</string>
+    <string name="backup_now">Seçili bölümleri yedekle</string>
+    <string name="vendor_boot_fmt">vendor_boot.img biçimi</string>
+    <string name="active">Etkin</string>
+    <string name="unbootable">Boot edilemez</string>
+    <string name="successful">Başarılı</string>
+    <!-- TODO: Make error and success messages string resources -->
+</resources>
